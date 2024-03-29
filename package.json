@@ -1,0 +1,16 @@
+{
+  "name": "thirdweb-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanstack/react-query": "^5.28.9",
+    "thirdweb": "5.0.0-beta-0c28573eec3111e724870f2832c1d3446a505e78-20240328000332"
+  }
+}
