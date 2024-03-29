@@ -1,23 +1,34 @@
 {
   "name": "thirdweb-hooks",
   "version": "1.0.0",
-  "description": "A collection of React hooks for thirdweb SDK v5",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "description": "A collection of React hooks for thirdweb's unified SDK",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kien-ngo/thirdweb-hooks.git"
+  },
   "keywords": [
     "thirdweb",
-    "web3",
-    "react"
+    "web3"
   ],
   "author": "Kien Ngo",
   "license": "ISC",
-  "dependencies": {
-    "@tanstack/react-query": "^5.28.9",
-    "thirdweb": "5.0.0-beta-0c28573eec3111e724870f2832c1d3446a505e78-20240328000332",
+  "bugs": {
+    "url": "https://github.com/kien-ngo/thirdweb-hooks/issues"
+  },
+  "homepage": "https://github.com/kien-ngo/thirdweb-hooks#readme",
+  "devDependencies": {
     "typescript": "^5.4.3"
+  },
+  "peerDependencies": {
+    "@tanstack/react-query": "^5.28.9"
+  },
+  "dependencies": {
+    "thirdweb": "^5.0.0-beta-0c28573eec3111e724870f2832c1d3446a505e78-20240328000332"
   }
 }
