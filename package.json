@@ -1,16 +1,23 @@
 {
   "name": "thirdweb-hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of React hooks for thirdweb SDK v5",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "thirdweb",
+    "web3",
+    "react"
+  ],
+  "author": "Kien Ngo",
   "license": "ISC",
   "dependencies": {
     "@tanstack/react-query": "^5.28.9",
-    "thirdweb": "5.0.0-beta-0c28573eec3111e724870f2832c1d3446a505e78-20240328000332"
+    "thirdweb": "5.0.0-beta-0c28573eec3111e724870f2832c1d3446a505e78-20240328000332",
+    "typescript": "^5.4.3"
   }
 }
